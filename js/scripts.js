@@ -11,6 +11,25 @@ $('input[type="text"], input[type="email"]')
 
 console.clear();
 
+// Adapted from georgepapadakis.me/demo/expanding-textarea.html
+(function(){
+
+  var textareas = document.querySelectorAll('.expanding'),
+
+      resize = function(t) {
+        t.style.height = 'auto';
+        t.style.overflow = 'hidden'; // Ensure scrollbar doesn't interfere with the true height of the text.
+        t.style.height = (t.scrollHeight + t.offset ) + 'px';
+        t.style.overflow = '';
+      },
+
+      attachResize = function(t) {
+        if ( t ) {
+          console.log('t.className',t.className);
+          t.offset = !window.opera ? (t.offsetHeight - t.clientHeight) : (t.offsetHeight + parseInt(window.getComputedStyle(t, null).getPropertyValue('border-top-width')));
+
+					
+
 var navigate = (function() {
 	$('.dd').toggle();
 	$('.dd_btn').click(function() {
