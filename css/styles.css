@@ -49,6 +49,11 @@ textarea {
   border-color: rgba(255, 255, 255, 0)
 }
 
+textarea:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px dashed rgba(255, 255, 255, 1);
+}
+
 
 
 h1 {
