@@ -81,6 +81,11 @@ input:required:valid {
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
+input:required:invalid {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
 
 h1 {
   font-family: helvetica;
