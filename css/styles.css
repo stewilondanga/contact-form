@@ -17,6 +17,11 @@ body {
   margin: 0 auto;
 }
 
+label {
+  font-weight: 400;
+  cursor: pointer;
+}
+
 
 
 h1 {
