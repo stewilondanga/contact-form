@@ -59,6 +59,10 @@ textarea:focus:required:valid {
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
+textarea:required:valid {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
 
 
 h1 {
