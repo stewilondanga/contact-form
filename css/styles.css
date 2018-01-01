@@ -125,6 +125,11 @@ input:required:invalid {
   fill: rgba(255, 255, 255, 1)
 }
 
+.send-icn:hover {
+  fill: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
 
 
 h1 {
