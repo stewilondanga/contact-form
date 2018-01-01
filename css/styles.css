@@ -92,6 +92,15 @@ input:required:invalid {
   font-weight: 400;
 }
 
+:-moz-placeholder {
+  /* Firefox 18- */
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
 
 
 h1 {
