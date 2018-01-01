@@ -63,6 +63,10 @@ textarea:required:valid {
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
+input {
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
 
 
 h1 {
