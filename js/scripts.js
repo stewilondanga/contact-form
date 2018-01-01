@@ -3,6 +3,13 @@ function resizeInput() {
     $(this).attr('size', $(this).val().length);
 }
 
+$('input[type="text"], input[type="email"]')
+    // event handler
+    .keyup(resizeInput)
+    // resize on page load
+    .each(resizeInput);
+
+
 
 var navigate = (function() {
 	$('.dd').toggle();
