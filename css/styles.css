@@ -130,6 +130,17 @@ input:required:invalid {
   cursor: pointer;
 }
 
+button {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 2vmax;
+}
+
+button:hover small {
+  opacity: 1;
+}
+
 
 
 h1 {
