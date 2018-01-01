@@ -40,6 +40,15 @@ input {
   cursor: text;
 }
 
+textarea {
+  text-align: left;
+  /* overflow:hidden; */
+
+  resize: none;
+  width: 90%;
+  border-color: rgba(255, 255, 255, 0)
+}
+
 
 
 h1 {
