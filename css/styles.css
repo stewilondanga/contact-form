@@ -77,6 +77,10 @@ input:focus {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+input:required:valid {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
 
 h1 {
   font-family: helvetica;
