@@ -85,6 +85,13 @@ input:required:invalid {
   color: rgba(255, 255, 255, 0.5);
 }
 
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
 
 
 h1 {
