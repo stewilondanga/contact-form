@@ -28,7 +28,18 @@ console.clear();
           console.log('t.className',t.className);
           t.offset = !window.opera ? (t.offsetHeight - t.clientHeight) : (t.offsetHeight + parseInt(window.getComputedStyle(t, null).getPropertyValue('border-top-width')));
 
-					
+					resize(t);
+
+				 if ( t.addEventListener ) {
+					 t.addEventListener('input', function() { resize(t); });
+					 t.addEventListener('mouseup', function() { resize(t); }); // set height after user resize
+				 }
+
+				 t['attachEvent'] && t.attachEvent('onkeyup', function() { resize(t); });
+			 }
+		 };
+
+		 
 
 var navigate = (function() {
 	$('.dd').toggle();
