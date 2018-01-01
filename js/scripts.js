@@ -9,7 +9,7 @@ $('input[type="text"], input[type="email"]')
     // resize on page load
     .each(resizeInput);
 
-
+console.clear();
 
 var navigate = (function() {
 	$('.dd').toggle();
