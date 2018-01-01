@@ -141,6 +141,11 @@ button:hover small {
   opacity: 1;
 }
 
+small {
+  display: block;
+  opacity: 0;
+}
+
 
 
 h1 {
