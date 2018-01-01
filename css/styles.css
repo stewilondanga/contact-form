@@ -157,7 +157,9 @@ small {
 
 }
 
-
+.website a {
+  color: white;
+}
 
 h1 {
   font-family: helvetica;
