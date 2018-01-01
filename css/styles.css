@@ -121,6 +121,10 @@ input:required:invalid {
   vertical-align: top;
 }
 
+.send-icn {
+  fill: rgba(255, 255, 255, 1)
+}
+
 
 
 h1 {
